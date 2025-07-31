@@ -1,0 +1,55 @@
+:root{
+    /* Color */
+    --white-color: #fff;
+    --dark-color: #252525;
+    --primary-color: #3b141c;
+    --secondary-color: #f3961c;
+    --light-pink-color: #faf4f5;
+    --medium-gray-color: #ccc;
+    --red-color: #ff004f;
+
+    /* font size*/
+    --font-size-s: 0.9rem;
+    --font-size-n: 1rem;
+    --font-size-m: 1.12rem;
+    --font-size-l: 1.5rem;
+    --font-size-xl: 2rem;
+    --font-size-xxl: 2rem;
+
+    /* font weight */
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    /* border radius */
+    --border-radius-s: 8px;
+    --border-radius-m: 30px;
+    --border-radius-circle: 50%;
+
+    /* site max width */
+    --site-max-width: 1300px;
+}
+
+.dropdown-list5{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0px, 1fr));
+    grid-gap: 30px;
+}
+/* number10--------------------------------------------------------------------------------------------- */
+
+.num10-list {
+    float: left;
+}
+
+.num10 img{
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: var(--border-radius-m);
+    transition: 0.3s ease;
+}
+
+.num10:hover {
+    transform: scale(1.1);
+}
+
